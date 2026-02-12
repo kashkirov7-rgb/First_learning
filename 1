@@ -1,0 +1,13 @@
+def sum_nums(a, b):
+    sum = a + b
+    return sum
+
+
+first_sum = sum_nums(32, 64)
+print(first_sum)
+
+print(sum_nums(36, 54))
+
+print(sum_nums(sum_nums(46, 54), 70))
+
+print()
